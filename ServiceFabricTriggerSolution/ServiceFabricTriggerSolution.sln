@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "SFTriggerApplication", "SFTriggerApplication\SFTriggerApplication.sfproj", "{886184B9-98BA-41B4-986D-F83DE8A61618}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTriggerService", "TimeTriggerService\TimeTriggerService.csproj", "{C293B2DD-1A96-442B-9F8D-6D70789DDE86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{886184B9-98BA-41B4-986D-F83DE8A61618}.Debug|x64.ActiveCfg = Debug|x64
+		{886184B9-98BA-41B4-986D-F83DE8A61618}.Debug|x64.Build.0 = Debug|x64
+		{886184B9-98BA-41B4-986D-F83DE8A61618}.Debug|x64.Deploy.0 = Debug|x64
+		{886184B9-98BA-41B4-986D-F83DE8A61618}.Release|x64.ActiveCfg = Release|x64
+		{886184B9-98BA-41B4-986D-F83DE8A61618}.Release|x64.Build.0 = Release|x64
+		{886184B9-98BA-41B4-986D-F83DE8A61618}.Release|x64.Deploy.0 = Release|x64
+		{C293B2DD-1A96-442B-9F8D-6D70789DDE86}.Debug|x64.ActiveCfg = Debug|x64
+		{C293B2DD-1A96-442B-9F8D-6D70789DDE86}.Debug|x64.Build.0 = Debug|x64
+		{C293B2DD-1A96-442B-9F8D-6D70789DDE86}.Release|x64.ActiveCfg = Release|x64
+		{C293B2DD-1A96-442B-9F8D-6D70789DDE86}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A1744F5-9BD8-4A20-9533-936F935F9564}
+	EndGlobalSection
+EndGlobal
