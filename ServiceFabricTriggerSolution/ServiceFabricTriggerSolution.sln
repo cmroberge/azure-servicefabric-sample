@@ -7,6 +7,8 @@ Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "SFTriggerApplication", "SFT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTriggerService", "TimeTriggerService\TimeTriggerService.csproj", "{C293B2DD-1A96-442B-9F8D-6D70789DDE86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTimeTriggerService", "SimpleTimeTriggerService\SimpleTimeTriggerService.csproj", "{B768BA39-D43E-4FED-9347-C64B65FB38C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -23,6 +25,10 @@ Global
 		{C293B2DD-1A96-442B-9F8D-6D70789DDE86}.Debug|x64.Build.0 = Debug|x64
 		{C293B2DD-1A96-442B-9F8D-6D70789DDE86}.Release|x64.ActiveCfg = Release|x64
 		{C293B2DD-1A96-442B-9F8D-6D70789DDE86}.Release|x64.Build.0 = Release|x64
+		{B768BA39-D43E-4FED-9347-C64B65FB38C5}.Debug|x64.ActiveCfg = Debug|x64
+		{B768BA39-D43E-4FED-9347-C64B65FB38C5}.Debug|x64.Build.0 = Debug|x64
+		{B768BA39-D43E-4FED-9347-C64B65FB38C5}.Release|x64.ActiveCfg = Release|x64
+		{B768BA39-D43E-4FED-9347-C64B65FB38C5}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

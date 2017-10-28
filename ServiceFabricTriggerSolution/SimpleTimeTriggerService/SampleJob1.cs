@@ -1,16 +1,17 @@
 ﻿using Quartz;
 using System;
 using System.Reflection;
+using TimeTriggerService;
 
-namespace TimeTriggerService
+namespace SimpleTimeTriggerService
 {
     [JobInfo(CronExpression = "0 0/1 * 1/1 * ? *", Name = "SampleJob1")]
     public class SampleJob1 : IJob
     {
         private ILogger logger;
-        public SampleJob1(ILogger loggerParam)
+        public SampleJob1()
         {
-            this.logger = loggerParam;
+            this.logger = new Logger();
         }
         public void Execute(IJobExecutionContext context)
         {

@@ -32,6 +32,7 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\SimpleTimeTriggerService\SimpleTimeTriggerService.csproj" />
     <ProjectReference Include="..\TimeTriggerService\TimeTriggerService.csproj" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
