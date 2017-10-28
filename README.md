@@ -4,7 +4,7 @@
 This repository is aimed to hold Azure Service Fabric related samples.  
 Azure Service Fabric Servies can be configured to exhibit trigger based bahvior similar to [WebJobs](https://docs.microsoft.com/en-us/azure/app-service/web-sites-create-web-jobs) and [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview). Have added a code samples to exhibit such behavior (Detailed below).  
 ### Solutions
-- [Time triggered / Scheduler Service in Azure Service Fabric](#Time-triggered-/-Scheduler-Service-in-Azure-Service-Fabric-(ServiceFabricTriggerSolution))  
+- [Time triggered / Scheduler Service in Azure Service Fabric](#time-triggered--scheduler-service-in-azure-service-fabric-servicefabrictriggersolution)  
 #### Time triggered / Scheduler Service in Azure Service Fabric (ServiceFabricTriggerSolution)
 To create a time triggered (scheduler) Service in Azure Service Fabric, I can think of following two quick options among the possible ways.
 1. Create a time triggered WebJob and add/deploy it as a [guest executable](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-deploy-existing-app) in Azure Service Fabric. 
