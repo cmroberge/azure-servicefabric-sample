@@ -6,7 +6,7 @@ Azure Service Fabric Servies can be configured to exhibit trigger based bahvior 
 ### Solutions
 - [Time triggered / Scheduler Service in Azure Service Fabric](#Time-triggered-/-Scheduler-Service-in-Azure-Service-Fabric)  
 #### Time triggered / Scheduler Service in Azure Service Fabric (ServiceFabricTriggerSolution)
-To create a time triggered (scheduler) Service in Azure Service Fabric, I can think of following two options.
+To create a time triggered (scheduler) Service in Azure Service Fabric, I can think of following two quick options among the possible ways.
 1. Create a time triggered WebJob and add/deploy it as a [guest executable](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-deploy-existing-app) in Azure Service Fabric. 
 2. Create Azure Service Fabric Stateless Service and implement the listener to handle jobs.  
 
